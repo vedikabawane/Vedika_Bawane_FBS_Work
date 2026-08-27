@@ -1,0 +1,6 @@
+str='Vedika'
+#1.in
+print('v'in str)
+
+#2.not in
+print('v' not in str)

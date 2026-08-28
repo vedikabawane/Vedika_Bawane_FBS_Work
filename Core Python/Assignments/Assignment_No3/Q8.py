@@ -3,3 +3,22 @@
 # same. If user enters the same number then show him success message otherwise 
 # failed. (Something like captcha) 
 
+import random
+
+userid = input('Enter User ID: ')
+password = input('Enter Password: ')
+
+if userid == 'admin' and password == '1234':
+    
+    number = random.randint(1000, 9999)
+    print('Your verification number is:', number)
+    
+    entered_number = int(input('Enter the verification number: '))
+    
+    if entered_number == number:
+        print('Success')
+    else:
+        print('Failed')
+        
+else:
+    print('Invalid User ID or Password')

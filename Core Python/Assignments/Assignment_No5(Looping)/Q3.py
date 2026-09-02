@@ -4,3 +4,4 @@
 # a. Children below 12 = 30% discount  
 # b. Senior citizen (above 59) = 50% discount  
 # c. Others need to pay full.
+

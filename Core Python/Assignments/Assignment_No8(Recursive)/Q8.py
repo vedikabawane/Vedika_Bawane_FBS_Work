@@ -1,0 +1,2 @@
+# Write a program to check whether a number is prime or not using recursion. 
+

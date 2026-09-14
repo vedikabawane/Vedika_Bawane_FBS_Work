@@ -1,4 +1,4 @@
-# Write a program to reverse a given number using recursive function.
+#  Write a program to reverse a number using recursion. 
 
 def reverse(n, rev):
     if(n == 0):

@@ -7,7 +7,7 @@ li = [10,20,30,10,30,40,60,50]
 
 count = 0
 
-for i in range(0, len(li)):
+for i in range(len(li)):
     if(n == li[i]):
         count += 1
 

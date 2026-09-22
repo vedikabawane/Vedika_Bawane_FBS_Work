@@ -3,12 +3,8 @@
 
 li = [1, 2, 3, 4, 6, 8, 9]
 
-new = [0] * len(li)
+new = []
 
-i = 0
-
-for num in li:
-    new[i] = num ** 3
-    i = i + 1
-
+for i in range(len(li)):
+    new = new + [li[i] **3]
 print(new)

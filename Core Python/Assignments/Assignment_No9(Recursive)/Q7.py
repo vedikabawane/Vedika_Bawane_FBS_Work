@@ -9,3 +9,4 @@ def sumDigits(n):
 n=int(input('Enter number:'))
 res=sumDigits(n)
 print(res)
+

@@ -1,7 +1,6 @@
 # Python Program to Sort a List According to the Length of the Elements 
 # within the list. 
-
-# Python Program to Sort a List According to the Length of the Elements
+ 
 
 li = ["apple", "cat", "banana", "hi", "elephant"]
 

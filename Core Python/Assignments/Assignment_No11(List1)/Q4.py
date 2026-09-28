@@ -10,3 +10,4 @@ for i in range(1, size):
             li[j], li[j+1] = li[j+1], li[j]
 
 print("After sorting:", li)
+print("Second largest:", li[size-2])

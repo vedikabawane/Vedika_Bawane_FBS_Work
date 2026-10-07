@@ -1,0 +1,28 @@
+class Student:
+    inName = 'FBS'
+    @staticmethod
+    def setInName(niname):
+        Student.inName=niname
+
+    def __init__(self, frn, name, bname):
+        self.frn = frn
+        self.name = name
+        self.bname = bname
+        # self.iname = iname
+
+
+    def display(self):
+        print(f"FRN = {self.frn}\t Name = {self.name}\t Batch_name = {self.bname}\t Instute_name = {self.inName}")
+
+# s1 = Student(10, 'Amisha', 'July-Aug')
+# s2 = Student(12, 'Gauri', 'Aug')
+# s3 = Student(13, 'Sanvi', 'Sep')
+# # print(s1.getName())
+# s1.display()
+# s2.display()
+# s3.display()
+print(Student.inName)
+# s1.setInName("FirstBitSolution")    This wrong way
+# print(Student.inName)
+Student.setInName("FirstBitSolution")  #odject create nahi kiya to bhi ham set kar sakte hai
+print(Student.inName)

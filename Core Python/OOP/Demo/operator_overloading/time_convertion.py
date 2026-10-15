@@ -27,8 +27,10 @@ class Time:
         thr=self.hr+other.hr+ehr
         return Time(thr,tmin,tsec)
 
+
 t1=Time(12,33,55)
 t2=Time(8,30,56)
-a=t1+t2
-print(a)
+a1=t1+t2
+print(a1)
+
     

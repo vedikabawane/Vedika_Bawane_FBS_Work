@@ -40,6 +40,7 @@ class Hr(Employee):
 
     def calSal(self):
         print(f'Final Sal of Hr {self.sal + self.com}')
+        
 
 
 class Developer(Employee):

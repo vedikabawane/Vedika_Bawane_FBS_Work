@@ -23,8 +23,8 @@ class Product:
         print(f'Product ID: {self.pid}\tProduct Name: {self.pname}\tPrice: {self.price}\tQuantity: {self.quantity}')
 
     def apply_discount(self):
-        self.price *= 1 - Product.discount
-        return self.price
+        discounted_price = (self.price * self.discount)
+        return discounted_price
 
 p1 = Product(101,"Tablet", 80000, 5)
 p1.apply_discount()

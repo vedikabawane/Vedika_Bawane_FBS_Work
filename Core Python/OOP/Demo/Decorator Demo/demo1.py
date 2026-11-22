@@ -33,13 +33,13 @@
 
 
 # Step5:Closure(Closure is a special type of function which pass everything as to its neighboring function or another function)
-# def demo(a=10):
-#     def innerfunction():
-#         print(a)
-#     return innerfunction
-# res=demo()
-# # print(res)
-# res()
+def demo(a=10):
+    def innerfunction():
+        print(a)
+    return innerfunction
+res=demo()
+# print(res)
+res()
 
 
 
